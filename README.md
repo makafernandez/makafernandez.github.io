@@ -5,3 +5,4 @@
 <p>
 	<img src="img/palette (6).svg" alt="">
 </p>
+
