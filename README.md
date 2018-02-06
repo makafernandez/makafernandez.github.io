@@ -13,5 +13,6 @@ La idea general es realizar una SPA, con scroll horizontal y un menú desplegabl
 ### Pantalla principal
 
 Este es mi diseño preliminar, cada cuadro es una sección. La sección proyectos mostrará un proyecto por pantalla, deslizables de derecha a izquierda.
-<iframe align=center src="https://marvelapp.com/2j0ba2j?emb=1" width="1440" height="1024" allowTransparency="true" frameborder="0"></iframe>
+
+<iframe src="https://marvelapp.com/2j0ba2j?emb=1" width="1440" height="1024" allowTransparency="true" frameborder="0"></iframe>
 
