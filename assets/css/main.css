@@ -1,3 +1,69 @@
+.navbar {
+  border-top: 5px solid #20c997;
+}
+
 .container, .container-fluid {
   padding-top: 70px;
+}
+
+h2 {
+  color: #20c997;
+}
+
+/* WELCOME */
+.background {
+  height: 100vh;
+}
+
+#headline {
+  outline: 1px dashed forestgreen;
+  transform: translateY(50%);
+  text-align: center;
+  height: 50vh;
+}
+
+/* 01.ABOUT ME */
+
+
+/* 02.SKILLS */
+
+
+/* 03.WORK */
+
+
+/* 04.CONTACT */
+#contact {
+  height: 100vh;
+}
+
+#contact-info {
+  padding: 4rem 2rem 1rem 3rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: right;
+}
+
+#contact-info a {
+  color: #20c997;
+}
+
+#contact-info a:hover {
+  color: #ffdd1f;
+  text-decoration-line: none;
+}
+
+/* FOOTER */
+footer a {
+  color: #0e0d0dec;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 35.5em) {
+  /* 04.CONTACT */
+  #contact-info {
+  padding: 4rem 0 1rem 7rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: right;
+}
 }
