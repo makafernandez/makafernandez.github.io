@@ -4,6 +4,13 @@
 * font-family: 'EB Garamond', serif;
 */
 
+/* COLORS
+* Negro #0a0800
+* Amarillo #ffdd1f
+* Blanco #FFF
+* Turqueza #01d091
+*/
+
 /* GENERAL */
 body {
   font-family: 'Montserrat', sans-serif;
@@ -13,7 +20,7 @@ body {
 .navbar {
   border-top: 5px solid #ffdd1f;
   color: hsla(0, 0%, 100%, 0.808);
-  background-color: hsla(0, 100%, 3%, 0.8) !important;
+  background-color: #0a0800cc !important;
 }
 
 .logo {
@@ -34,7 +41,7 @@ body {
 }
 
 h2 {
-  color: hsl(51, 100%, 2%);
+  color: #0a0800;
   font-family: 'Merriweather', serif;
   padding-bottom: 4rem;
   text-align: center;
@@ -52,7 +59,7 @@ h2 {
 
 .btn-link:hover, .btn-link-drk:hover {
   text-transform: uppercase;
-  color: #0e0e0e;
+  color: #0a0800;
   border: 2px solid hsl(51, 100%, 56%);
   padding: 0.5rem 1rem;
   background-color: #ffdd1f;
@@ -65,7 +72,7 @@ ul {
 
 /* WELCOME */
 #welcome {
-  background-color: hsl(51, 100%, 2%);
+  background-color: #0a0800;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='7.9' %3E%3Cpath d='M-500%2C75c0%2C0%2C125-30%2C250-30S0%2C75%2C0%2C75s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C45c0%2C0%2C125-30%2C250-30S0%2C45%2C0%2C45s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C105c0%2C0%2C125-30%2C250-30S0%2C105%2C0%2C105s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C15c0%2C0%2C125-30%2C250-30S0%2C15%2C0%2C15s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500-15c0%2C0%2C125-30%2C250-30S0-15%2C0-15s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C135c0%2C0%2C125-30%2C250-30S0%2C135%2C0%2C135s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3C/g%3E%3C/svg%3E");
 }
 
@@ -103,11 +110,11 @@ h1 {
 
 .btn-link-drk {
   text-transform: uppercase;
-  color: #181818;
+  color: #0a0800;
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
-  border: 2px solid #181818;
+  border: 2px solid #0a0800;
   padding: 0.5rem 1rem;
 }
 
@@ -168,13 +175,13 @@ h1 {
 }
 
 #contact-info a:hover {
-  color: hsl(162, 99%, 41%);
+  color: #01d091;
   text-decoration-line: none;
 }
 
 /* FOOTER */
 footer {
-  background-color: hsla(51, 100%, 2%, 0.9);
+  background-color: #0a0800e6;
   color: #fff;
 }
 
