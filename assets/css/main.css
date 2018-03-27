@@ -24,6 +24,11 @@ body {
 .navbar {
   color: hsla(0, 0%, 100%, 0.808);
   background-color: #101318 !important;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
 }
 
 .logo {
@@ -36,11 +41,11 @@ body {
 }
 
 .nav-link {
-  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .container {
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
 
 h2 {
