@@ -1,11 +1,11 @@
 /* FONTS
-* font-family: 'Montserrat', sans-serif;
-* font-family: 'Merriweather', serif;
-* font-family: 'EB Garamond', serif;
+* font-family: 'Julius Sans One', sans-serif;
+* font-family: 'Pathway Gothic One', sans-serif;
+* font-family: 'Josefin Sans', sans-serif;
 */
 
 /* COLORS
-* Negro #0a0800
+* Negro #101318
 * Amarillo #ffdd1f
 * Blanco #FFF
 * Turqueza #01d091
@@ -13,14 +13,17 @@
 
 /* GENERAL */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 16px;
+  color: #101318;
+  text-align: left;
+  font-weight: 400;
+  background-color: #fff;
 }
 
 .navbar {
-  border-top: 5px solid #ffdd1f;
   color: hsla(0, 0%, 100%, 0.808);
-  background-color: #0a0800cc !important;
+  background-color: #101318 !important;
 }
 
 .logo {
@@ -37,42 +40,47 @@ body {
 }
 
 .container {
-  padding-top: 80px;
+  padding-top: 2rem;
 }
 
 h2 {
-  color: #0a0800;
-  font-family: 'Merriweather', serif;
-  padding-bottom: 4rem;
-  text-align: center;
+  color: #101318;
+  text-transform: uppercase;
+  padding-bottom: 2.5rem;
+  font-family: 'Pathway Gothic One', sans-serif;
 }
 
 .btn-link {
   text-transform: uppercase;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
   border: 2px solid #fff;
+  padding: 0.7rem 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn-link-drk {
+  text-transform: uppercase;
+  color: #101318;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 2px solid #101318;
   padding: 0.5rem 1rem;
 }
 
 .btn-link:hover, .btn-link-drk:hover {
   text-transform: uppercase;
-  color: #0a0800;
+  color: #101318;
   border: 2px solid hsl(51, 100%, 56%);
-  padding: 0.5rem 1rem;
   background-color: #ffdd1f;
   text-decoration-line: none;
 }
 
-ul {
-  list-style: none;
-}
-
 /* WELCOME */
 #welcome {
-  background-color: #0a0800;
+  background-color: #101318;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='7.9' %3E%3Cpath d='M-500%2C75c0%2C0%2C125-30%2C250-30S0%2C75%2C0%2C75s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C45c0%2C0%2C125-30%2C250-30S0%2C45%2C0%2C45s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C105c0%2C0%2C125-30%2C250-30S0%2C105%2C0%2C105s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C15c0%2C0%2C125-30%2C250-30S0%2C15%2C0%2C15s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500-15c0%2C0%2C125-30%2C250-30S0-15%2C0-15s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C135c0%2C0%2C125-30%2C250-30S0%2C135%2C0%2C135s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3C/g%3E%3C/svg%3E");
 }
 
@@ -90,32 +98,34 @@ ul {
 
 h1 {
   color: #ffdd1f;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 #headline p {
-  
+  font-family: 'Pathway Gothic One', sans-serif;
 }
 
 /* ABOUT ME */
 #about {
-  background-color: #fff;
-  height: auto;
+  height: 100vh;
+}
+
+#about-icon {
+  font-size: 1.2rem;
 }
 
 .bio {
-  font-size: 1.2rem;
-  font-weight: 600;
-  padding: 0 2rem 1rem 2rem;
+  font-size: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.btn-link-drk {
-  text-transform: uppercase;
-  color: #0a0800;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.8rem;
-  font-weight: 600;
-  border: 2px solid #0a0800;
-  padding: 0.5rem 1rem;
+.bio a {
+  color: inherit;
+}
+
+.bio a:hover {
+  text-decoration-line: none;
+  color: #ffdd1f;
 }
 
 /* SKILLS */
@@ -127,7 +137,6 @@ h1 {
 
 /* WORK */
 #work {
-  background-color: #fff;
   height: auto;
 }
 
@@ -148,6 +157,7 @@ h1 {
 .card-img-overlay {
   opacity: 0;
   text-align: center;
+  padding-top: 20%;
 }
 
 .card-img-overlay:hover {
@@ -166,8 +176,6 @@ h1 {
 #contact-info {
   padding: 0 2rem 1rem 2rem;
   font-size: 1.4rem;
-  font-weight: 600;
-  text-align: center;
 }
 
 #contact-info a {
@@ -181,39 +189,48 @@ h1 {
 
 /* FOOTER */
 footer {
-  background-color: #0a0800e6;
+  background-color: #101318e6;
   color: #fff;
 }
 
 /* MEDIA QUERIES */
 @media (min-width: 35.5em) {
-  
+  /* GENERAL */
+  h2 {
+    padding-bottom: 4rem;
+  }
+
   /* WELCOME */
   h1 {
     font-size: 4rem;
   }
 
   #headline p {
-    font-size: 1.5rem;
-    margin: 1rem 0 2rem 0;
+    font-size: 2rem;
+    margin: 1rem 0 6rem 0;
   }
 
   /* ABOUT */
   #about {
     height: 100vh;
   }
+
+  #about-icon {
+  font-size: 2rem;
+}
   
   .bio {
   font-size: 1.5rem;
-  font-weight: 600;
-  padding: 0 2rem 1rem 2rem;
+  }
+
+  /* WORK */
+  .card {
+    width: 300px;
   }
 
   /* CONTACT */
   #contact-info {
-    padding: 0 2rem 1rem 2rem;
-    font-size: 3rem;
-    font-weight: 700;
-    text-align: center;
+    padding: 0;
+    font-size: 2rem;
   }
 }
