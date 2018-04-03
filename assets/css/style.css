@@ -1,0 +1,103 @@
+body {
+  background-color: #fff;
+}
+
+h2 {
+  /* outline: 1px dashed greenyellow; */
+  font-size: 4rem;
+  color: rgba(255, 20, 147, 0.5);
+  z-index: 10;
+  width: 100vw;
+}
+
+section {
+  height: 100vh;
+  padding: 3rem 1rem 1rem;
+}
+
+/* HOME */
+#home {
+  background-image: url(./../img/bg/21.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255, 0.8);
+}
+
+#headline {
+
+}
+
+
+
+/* 01.ABOUT */
+#about {
+  background-image: url(./../img/bg/14.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutMe {
+  font-size: 1.3rem;
+  text-align: right;
+  line-height: 2.5rem;
+}
+
+/* 02.SKILLS */
+
+
+/* 03.PROJECTS */
+.project {
+  height: 15vh;
+  /* outline: 1px dashed #ff1493; */
+  text-align: center;
+  background-color: #fff; 
+}
+
+#project01:hover {
+  background-image: url(./../img/01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#project02:hover {
+  background-image: url(./../img/02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#project03:hover {
+  background-image: url(./../img/03.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#project04:hover {
+  background-image: url(./../img/04.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#project05:hover {
+  background-image: url(./../img/05.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#project06:hover {
+  background-image: url(./../img/06.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (min-width : 1024px) {
+  section {
+    height: 100vh;
+    /* outline: 1px dashed magenta; */
+  }
+  .project {
+    height: 50vh;
+    /* outline: 1px dashed deeppink; */
+  }
+}
+
+/* 04.CONTACT */

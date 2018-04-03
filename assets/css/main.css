@@ -13,18 +13,22 @@
 
 /* GENERAL */
 body {
-  font-family: 'Lora', serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
   color: #101318;
   text-align: left;
   font-weight: 400;
   background-color: #fff;
+  position: relative;
 }
 
 .navbar {
-  color: hsla(0, 0%, 100%, 0.808);
-  background-color: #101318 !important;
+  /*color: hsla(0, 0%, 100%, 0.808);*/
   font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-dark {
+  transition: all 1s ease;
 }
 
 .navbar-brand {
@@ -36,8 +40,10 @@ body {
   opacity: 0.8;
 }
 
-.text-yellow:hover {
+.text-yellow:hover,
+.nav-link.active {
   color: hsla(51, 100%, 56%, 0.8) !important;
+  font-weight: 700;
 }
 
 .nav-link {
@@ -46,6 +52,15 @@ body {
 
 .container {
   padding-top: 5rem;
+}
+
+a {
+  color: #101318;
+}
+
+a:hover {
+  text-decoration-line: none;
+  color: #ffdd1f;
 }
 
 h2 {
@@ -128,11 +143,6 @@ h1 {
   color: inherit;
 }
 
-.bio a:hover {
-  text-decoration-line: none;
-  color: #ffdd1f;
-}
-
 /* SKILLS */
 #skills {
   height: 100vh;
@@ -177,17 +187,7 @@ h1 {
 }
 
 #contact-info {
-  padding: 0 2rem 1rem 2rem;
   font-size: 1.4rem;
-}
-
-#contact-info a {
-  color: #ffdd1f;
-}
-
-#contact-info a:hover {
-  color: #01d091;
-  text-decoration-line: none;
 }
 
 #paperPlane {
